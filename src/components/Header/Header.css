@@ -1,7 +1,7 @@
 .main-header {
     width: 100%;
     height: 3.5rem;
-    background: #342b34;
+    background: #e68405;
 }
 
 .main-header__nav {
@@ -10,6 +10,7 @@
     width: 100%;
     height: 100%;
     padding: 0 1rem;
+   
 }
 
 .main-header__nav-items {
@@ -36,8 +37,8 @@
 .main-header__nav-item a:hover,
 .main-header__nav-item a:active,
 .main-header__nav-item a.active {
-    background: #6200ff;
-    border-radius: 5px;
+    background: #ff1403;
+    border-radius: 10px;
     color: white;
 }
 

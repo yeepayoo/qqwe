@@ -24,11 +24,13 @@ class AuthPage extends Component {
         }
         return (
             <main className="auth-main">
+               
                 <form className="auth__form" onSubmit={event =>
                     this.props.onAuth(event, {
                         email: this.state.email,
                         password: this.state.password
                     })}>
+                    <h1>Welcome to FSH shop</h1>
                     <h1>Login / SignUp</h1>
                     <Input label="E-Mail" config={{ type: 'email' }} onChange={event => this.inputChangeHandler(event, 'email')} />
                     <Input label="Password" config={{ type: 'password' }} onChange={event => this.inputChangeHandler(event, 'password')} />
